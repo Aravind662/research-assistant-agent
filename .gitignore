@@ -1,0 +1,18 @@
+# Virtual environment and Python cache
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive data
+.env
+config.py  # if it contains your OpenAI API key
+
+# Editor folders
+.vscode/
+
+# Local-only or generated files
+*.csv
+*.log
+# Local data
+data/
+*.csv
